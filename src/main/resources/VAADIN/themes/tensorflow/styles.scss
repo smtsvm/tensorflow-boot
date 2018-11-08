@@ -1,0 +1,11 @@
+@import "../valo/valo";
+@import "addons.scss";
+@import "variables";
+
+@mixin tensorflow {
+  @include valo;
+}
+.tensorflow {
+    @include addons;
+    @include tensorflow;
+}
